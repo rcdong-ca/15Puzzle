@@ -47,7 +47,7 @@ Then, BFS was used on the partitions with the blank tile for each group or patte
 
 Reasoning for C++
 
-	As stated in the introduction, this assignment was coded in C++ and not python. The reason for this is that C++ is an efficient programming language which allows for the 15-puzzle to be optimally solved. C++ executes faster and creates more time-efficient programs. Compared to python where the programs are interpreted, C++ is compiled. Another benefit is that there will be no signal type errors on runtime due to the initialization of variable types.
+As stated in the introduction, this assignment was coded in C++ and not python. The reason for this is that C++ is an efficient programming language which allows for the 15-puzzle to be optimally solved. C++ executes faster and creates more time-efficient programs. Compared to python where the programs are interpreted, C++ is compiled. Another benefit is that there will be no signal type errors on runtime due to the initialization of variable types.
 
 
 Explanation of IDA* 
