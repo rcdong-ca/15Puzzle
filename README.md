@@ -62,7 +62,7 @@ IDA*, a graph traversal and path search algorithm identifies the smallest path b
 
 
 
-Pseudocode: 
+Pseudocode:  
 ![image](https://user-images.githubusercontent.com/52853478/106702107-a99eeb00-659c-11eb-9ac6-ead1251a9dcd.png)
 
 Figure 3
