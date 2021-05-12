@@ -113,13 +113,10 @@ Instructions to run
 
 Enter in the terminal the following command:
 
-g++ --std=c++11 dj_pattern.cpp a5.cpp -o main
+g++ --std=c++11 dj_pattern.cpp main.cpp -o main
 
-Followed by the command:
 
-./a5
-
-The current a5.cpp will the 15-puzzle solver with the state:
+The current main.cpp will the 15-puzzle solver with the state:
 
  7   5   2   4
  1   6   3   8
@@ -131,47 +128,6 @@ The time to run IDA* star and the number of nodes will be shown in the terminal.
 Results
 
 Using a memory efficient A* algorithm IDA combined with a pattern database to make use of heuristics and search trees, the 15-puzzle was solved in an efficient manner. The 5-5-5 pattern database was chosen for this assignment. The table and chart below provide trials for 25 different 15-puzzles. Most of the states were solved in less than a second with a few outliers which skewed the average. The average then was still only 3.768 seconds for the 25 trials. The node length travelled on average was 18.16.
-
-
-
-
-
-
-
-
-
-
-
-
-Trials 
-
-15 puzzle	Length (nodes)	Running Time (Seconds)
-Test 1 (1,2,3,4,5,6,7,8,9,10,11,12,0,13,14,15)	3	0.017
-Test 2 (1,2,3,0,5,6,7,4,9,10,11,8,13,14,15,12)	13	0.0193
-Test 3 (1,2,3,4,5,6,7,8,9,10,0,11,13,14,15,12)	2	0.0113
-Test 4 (1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,15)	1	0.0112
-Test 5 (1,2,3,4,5,6,8,0,9,10,7,11,13,14,15,12)	4	0.0228
-Test 6 (1,0,2,3,5,6,8,4,9,10,7,11,13,14,15,12)	7	0.0282
-Test 7 (5,1,2,3,9,6,8,4,0,10,7,11,13,14,15,12)	10	0.0347
-Test 8 (5,1,2,0,9,6,4,3,13,7,8,15,14,10,12,11)	21	0.203
-Test 9 (5,1,2,4,9,7,3,8,0,6,10,11,13,14,15,12)	10	0.0376
-Test 10 (7,5,2,4,1,6,3,8,9,11,12,15,13,10,0,14)	17	0.281
-Test 11 (0,2,3,4,5,7,1,8,9,6,12,15,13,11,10,14)	22	3.437
-Test 12 (2,7,3,4,9,5,1,8,6,11,12,15,13,0,10,14)	32	12.312
-Test 13 (0,2,7,4,9,5,3,8,6,11,1,15,13,10,12,14)	27	5.218
-Test 14 (9,2,7,4,0,5,3,8,6,11,1,15,13,10,12,14)	39	20.578
-Test 15 (6,0,3,4,2,1,7,8,5,10,11,12,9,13,14,15)	11	0.0312
-Test 16 (6,1,4,8,2,7,3,0,5,10,11,12,9,13,14,15)	14	0.0937
-Test 17 (6,7,1,8,0,2,4,3,5,10,11,12,9,13,14,15)	19	43.234
-Test 18 (9,5,2,4,1,6,3,8,0,10,7,11,13,14,15,12)	24	0.140
-Test 19 (9,5,2,4,0,1,3,8,10,6,7,11,13,14,15,12)	21	0.0156
-Test 20 (3,0,6,4,5,9,2,8,1,10,7,11,13,14,15,12)	29	0.828
-Test 21 (3,9,6,4,5,2,0,8,1,10,7,11,13,14,15,12)	29	0.765
-Test 22 (3,9,6,4,5,2,8,11,1,10,0,7,13,14,15,12)	26	1.312
-Test 23 (4,0,2,11,3,5,9,6,1,10,8,7,13,14,15,12)	29	1.656
-Test 24 (4,5,2,11,3,0,9,6,1,10,8,7,13,14,15,12)	30	4.031
-Test 25 (7,5,2,4,1,6,3,8,9,14,10,11,13,0,15,12)	14	0.0156
- Average 	18.16	3.768
 
  
 ![image](https://user-images.githubusercontent.com/52853478/106702270-e965d280-659c-11eb-85e1-94684569fc35.png)
