@@ -1,4 +1,4 @@
-#include "a5.h"
+#include "STPuzzleFunc.h"
 
 
 SixTeenPuzzle::SixTeenPuzzle(int* state, int len ) { //set initial state and goal state
