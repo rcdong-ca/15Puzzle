@@ -1,4 +1,4 @@
-#include "a5.h"
+#include "STPuzzleFunc.h"
 /* 1 2 3 4 
    5 6 7 8
    9 10 11 12
@@ -133,15 +133,4 @@ void bfs_to_database(int* state, std::ofstream* myfile) { //performed on the bla
       myqueue.pop(); //pop out the current one, since we added it exists in
    }
 }
-
-// int main() {
-//    int pattern1[16] = {1,2,3,4,5,0,0,0,0,0,0,0,0,0,0,0};
-//    int pattern2[16] = {0,0,0,0,0,6,7,8,9,10,0,0,0,0,0,0};
-//    int pattern3[16] = {0,0,0,0,0,0,0,0,0,0,11,12,13,14,15,0};
-
-//    std::ofstream myfile;
-//    myfile.open("pattern3.csv");
-//    bfs_to_database(pattern3, &myfile);
-//    myfile.close();
-// }
 
