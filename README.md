@@ -113,7 +113,7 @@ Instructions to run
 
 Enter in the terminal the following command:
 
-g++ --std=c++11 dj_pattern.cpp a5.cpp -o a5
+g++ --std=c++11 dj_pattern.cpp a5.cpp -o main
 
 Followed by the command:
 
@@ -130,7 +130,7 @@ The time to run IDA* star and the number of nodes will be shown in the terminal.
 
 Results
 
-Using a memory efficient A* algorithm IDA combined with a pattern database to make use of heuristics and search trees, the 15-puzzle was solved in an efficient manner. The 5-5-5 pattern database was chosen for this assignment. The table and chart below provide trials for 25 different 15-puzzles. Most of the states were solved in less than a second with a few outliers which skewed the average. The average then was still only 3.768 seconds for the 25 trials. The node length travelled on average was 18.16. Using AI techniques learned in this course, the 15-puzzle solver was efficiently implemented.
+Using a memory efficient A* algorithm IDA combined with a pattern database to make use of heuristics and search trees, the 15-puzzle was solved in an efficient manner. The 5-5-5 pattern database was chosen for this assignment. The table and chart below provide trials for 25 different 15-puzzles. Most of the states were solved in less than a second with a few outliers which skewed the average. The average then was still only 3.768 seconds for the 25 trials. The node length travelled on average was 18.16.
 
 
 
